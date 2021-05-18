@@ -1,13 +1,35 @@
 body{
-  font-family:'muli',sans-serif;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  overflow: hidden;
-  margin: 0;
+  background-color:#e4fbff;
 }
-
+hr{
+  border-style:dotted none none;
+  border-color:  #dddddd;
+  border-width: 5px;
+  width: 10%;
+}
+h1{
+  color: #98ddca;
+  text-shadow:4px 4px 5px #a7bbc7;
+}
+h2{
+  color: #98ddca;
+}
+h3{
+  color: #98ddca;
+}
+h4{
+  color: #98ddca;
+}
+p{
+  font-size: 20px;
+  text-align:justify;
+  text-shadow:2px 2px 6px #a7bbc7;
+}
+video{
+  height: 600px;
+  align-content: center;
+}
+/*******************div*************/
 .container{
   display: flex;
   width: 90vw;
