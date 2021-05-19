@@ -1,5 +1,5 @@
 body{
-  background-color:#e4fbff;
+  background-color:#e3fdfd;
 }
 hr{
   border-style:dotted none none;
@@ -29,6 +29,11 @@ video{
   height: 600px;
   align-content: center;
 }
+
+.top{
+  background-color:  white;
+  width: 100%;
+}
 /*******************div*************/
 .container{
   display: flex;
@@ -43,7 +48,7 @@ video{
   border-radius: 50px;
   color: #e1e5ea;
   cursor: pointer;
-  flex: 0.4;
+  flex: 0.5;
   margin: 10px;
   position: relative;
   transition: flex 0.7s ease-in;
@@ -59,9 +64,9 @@ video{
 }
 
 .panel.active {
-  flex: 5;
+  flex: 6;
 }
-.panel.active h3{
+.panel.activee h3{
 opacity: 1;
 }
 
@@ -74,4 +79,26 @@ opacity: 1;
   .panel:nth-of-type(5) {
     display: none;
   }
+}
+/***************************button**********************/
+.collapsible{
+  background-color: #e4efe7;
+  width: 100%;
+  text-align: center;
+  padding: 12px;
+  border: none;
+  color: Black;
+  cursor: pointer;
+  font-size: 50px;
+  font-family: cursive;
+}
+ .collapsible:hover {
+  background-color: #064420;
+}
+
+.img.content {
+  padding: 12px;
+  display: none;
+  overflow: hidden;
+  background-color: #f9f3f3;
 }
