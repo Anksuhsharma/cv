@@ -1,0 +1,21 @@
+body {
+  background-image: url('CAR.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+h1{
+  color: white;
+  font-family: cursive;
+  background-color: black;
+}
+
+.container{
+  display: flex;
+}
+.left.container {
+  width:  2000px;
+  background-color:black;
+  opacity: .3 ;
+  color: white;
+}
