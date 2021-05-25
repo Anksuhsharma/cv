@@ -1,43 +1,86 @@
-body {
-  background-image: url('CAR.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 100% 100%;
-}
-h1{
+.body-container2 {
   color: white;
-  font-family: cursive;
-  background-color: black;
+  position: relative;
+  width: 100vw;
+  padding-left: 0;
+  padding-right: 0;
 }
 
-.container{
+.h1-title-brand {
+  margin-bottom: 0;
+  margin-left: 40px;
+  font-family: 'Pattaya', sans-serif;
+  font-weight: normal;
+}
+.a1-top{
+  color: white;
+  text-decoration: none;
+}
+
+.a1-top:hover{
+  color: white;
+
+}
+.t11 {
+
+  width: 100vw;
+}
+
+.con11-left {
+  background-position: center;
+  background-size: cover;
+  height: 545px;
+  color: white;
+  line-height: 2;
+}
+.text111{
+  padding: 2% 10%;
+}
+@media (max-width:1028px) {
+  .con11-left {
+    text-align: center;
+  }
+}
+
+.con11-right {
+  background-size: cover;
+  background-position: center;
+  height: 545px;
+}
+
+.header-con {
+  background-color: #393e46;
+}
+
+.footer {
+  color: white;
+  text-align: center;
+  width: 100vw;
+  background-color: #393e46;
+  position: relative;
+  bottom: 0;
+  padding: 50px;
+}
+.p-footer{
+  color: #e1e5ea;
+  margin: 10px;
+}
+.p-footer:hover{
+  color: white;
+}
+
+.side.bar {
   display: flex;
-}
-.left.container {
-  width:  1500px;
-  background-color: black;
-  opacity: .3 ;
-  color: white;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
-.p1{
-  font-size: 18px;
-  font-family: sans-serif;
-  text-align: left;
+.h3t {
+  font-size: 12px;
+  margin: 20px;
 }
-.p2{
-  font-size: 50px;
-  font-family: sans-serif;
-  text-align: left;
-}
-.absolute {
-  position: absolute;
-  width: 40%;
-  bottom: 10px;
-  background-color: red;
-}
-.img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+.h33-footer{
+  font-size: 12px;
+
 }
