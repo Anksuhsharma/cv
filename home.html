@@ -5,29 +5,45 @@
   <meta charset="utf-8">
   <title>Ankush personal site</title>
   <link rel="stylesheet" href="css/style.css">
+  <!-- bootstrap 4 -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!-- java -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
-  <div class="top">
-    <div>
-      <a href="index.html"> <img src="1.png" height='25px' alt="home page"> </a>
+  <div class="container-fluid title77">
+    <div class="brand">
+      <h1 style="margin:5px; text-shadow:0 0 0;">Ankush Sharma</h1>
+    </div>
+    <div class="side-bar">
+      <a class="a-1" href="index.html">Home</a>
+      <a class="a-1" href="contact info.html">contact</a>
+      <a class="a-1" href="HOBBIES.HTML">About</a>
     </div>
   </div>
-  <table cellspacing="20">
-    <tbody>
 
-    </tbody>
-    <tr>
-      <td><a href="https://www.instagram.com/the_sharma_ankush/"><img src="1.png" alt="Ankush" width="314" height="235"></a></td>
-      <td>
-        <h1 style="font-size:80px">😀Ankush Sharma </h1>
-        <p>This is my photo gallery which is devolop and mentain by me.Here I upload my all edited pic.</p>
-      </td>
-    </tr>
-    </tbody>
-  </table>
-  <hr>
-  <table>
+  <hr class="hr-11">
+  <div class="container">
+    <div class="">
+      <img src="1.png" alt="profile" class="profile">
+    </div>
+    <div class="text-111">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Risus pretium quam vulputate dignissim suspendisse in.
+        Tempor nec feugiat nisl pretium.
+        Lacus viverra vitae congue eu consequat ac felis donec.
+        Vulputate enim nulla aliquet porttitor lacus.</p>
+    </div>
+
+
+  </div>
+
+  <!-- <table>
     <tr>
       <td>
         <h3>Studying</h3>
@@ -86,15 +102,46 @@
         </table>
       </td>
     </tr>
-  </table>
-  <hr>
-    <center>
-  <video controls autoplay loop >
-    <source src="1.mp4" type="video/mp4">
+  </table> -->
 
-  </video>
+  <hr class="hr-11">
 
-  <div class="container" style="background-color:#;">
+  <div id="carouselExampleControls" class="carousel slide col-div" data-ride="carousel" data-pause='hover'>
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleControls" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleControls" data-slide-to="1"></li>
+      <li data-target="#carouselExampleControls" data-slide-to="1"></li>
+    </ol>
+    <div class="carousel-inner ">
+      <div class="carousel-item active " >
+        <center>
+        <video controls autoplay loop>
+          <source src="ankush.mp4" type="video/mp4">
+        </video></center>
+      </div>
+      <div class="carousel-item" >
+        <center>
+        <video controls autoplay loop>
+          <source src="1.mp4" type="video/mp4">
+        </video></center>
+      </div>
+      <div class="carousel-item" >
+        <center>
+        <video controls autoplay loop>
+          <source src="Comp 1.mp4" type="video/mp4">
+        </video></center>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" style="background-color:black;"></span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" style="background-color:black;"></span>
+    </a>
+  </div>
+
+
+  <div class="container">
     <div class="panel  active" style="background-image: url('https://images.unsplash.com/photo-1621250957006-e1dec4e4c218?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=402&q=80')">
       <h3>Black Tone</h3>
     </div>
@@ -123,37 +170,60 @@
       <h3>The Triples</h3>
     </div>
   </div>
-  <button type="button" class="collapsible" >More</button>
-  <div class="img content">
-  <table>
-    <tr>
-      <td>  <img src="img/1.jpg" height="580px"></td>
-      <td>
-<table>
-  <tr>
-    <td> <img src="img/2.jpg" height="250"> </td>
-  </tr>
-  <tr>
-    <td> <img src="img/3.jpg" height="330"> </td>
-  </tr>
-</table>
-      </td>
-    </tr>
-  </table>
+
+<div class=" dd-2">
+  <div class="panel" style="background-image: url('img/5.jpg')">
+    <h3>Moon Light</h3>
+  </div>
+  <div class="panel" style="background-image: url('img/6.jpg')">
+    <h3>Moon Light</h3>
+  </div>
+  <div class="panel" style="background-image: url('img/7.png')">
+    <h3>Moon Light</h3>
+  </div>
+  <div class="panel" style="background-image: url('img/8.png')">
+    <h3>Moon Light</h3>
+  </div>
+  <div class="panel" style="background-image: url('img/9.jpg')">
+    <h3>Moon Light</h3>
+  </div>
+  <div class="panel" style="background-image: url('img/10.jpg')">
+    <h3>Moon Light</h3>
+  </div>
+  <div class="panel" style="background-image: url('img/11.jpg')">
+    <h3>Moon Light</h3>
+  </div>
 </div>
-  <script src="script.js">
 
-  </script>
-
-    <table style="background-color: white; width:100%; text-align:center;">
+  <button type="button" class="btn btn-dark btn-block btn-lg collapsible">More</button>
+  <div class="img content">
+    <table>
       <tr>
+        <td> <img src="img/1.jpg" height="580px"></td>
         <td>
-          <a href="HOBBIES.HTML" style='FONT-SIZE:20PX'>About</a>
-          <a href='contact info.html' style='font-size:20px'>Contact info</a>
+          <table>
+            <tr>
+              <td> <img src="img/2.jpg" height="250"> </td>
+            </tr>
+            <tr>
+              <td> <img src="img/3.jpg" height="330"> </td>
+            </tr>
+          </table>
         </td>
       </tr>
     </table>
-  </center>
+  </div>
+  <script src="script.js"> </script>
+
+  <div class="footer">
+    <a href="HOBBIES.HTML" class="a-footer">About</a>
+    <a href='contact info.html' class="a-footer">Contact info</a>
+
+    <p class="p-footer">copyright © 2021 Ankush Sharma.</p>
+  </div>
+
+
+
 </body>
 
 </html>
