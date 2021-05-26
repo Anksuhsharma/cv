@@ -1,4 +1,21 @@
-
+.title{
+  background-color: #cbf1f5;
+  position: relative;
+  width: 100;
+  height: 50px;
+}
+.side-bar{
+  margin-top:10px;
+  position: absolute;
+  width: 100;
+  height: 50px;
+  right: 0;
+}
+.a-title{
+  color: #66bfbf;
+  margin: 10px;
+  font-size: 12px;
+}
 h1{
 margin-top:0;
 font-family: 'Sacramento', cursive;
