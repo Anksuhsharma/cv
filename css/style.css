@@ -135,7 +135,18 @@ opacity: 1;
 }
 
 /* joke */
-
+.container-1{
+    background-color: #ffc107;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  padding: 20px;
+}
 .container-joke{
   background-color: #fff;
   padding: 50px 20px;
