@@ -60,5 +60,6 @@ function removing(){
     welcome_h1.classList.remove("welcome_h1_opacity");
     con11.classList.remove("con11_left_2");
     welcome_h1.classList.remove("welecome_h1_padinf");
+    document.querySelector(".welcome_h1").innerText="Click to visite";
   } , 1800
 )}
