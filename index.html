@@ -9,6 +9,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Pattaya&display=swap" rel="stylesheet">
   <!-- css -->
   <link rel="stylesheet" href="css\style3.css">
+  <link rel="stylesheet" href="style.css">
   <!-- icon -->
   <script src="https://kit.fontawesome.com/79a2fbbb3c.js" crossorigin="anonymous"></script>
   <!-- bootstrap 4 -->
@@ -42,8 +43,10 @@
   </div>
 
 
+<!-- style="background-image: url('10.jpg') " -->
+
   <div class="row">
-    <div class="col-lg-6  con11-left" style="background-image: url('img-left.jpg') ">
+    <div class="col-lg-6  con11_left"  >
       <div class="" style="padding:50px;" >
         <p class="we-think" style="margin:0;">we think</p>
         <h1 class="CREATIVE" style="margin:0;">CREATIVE</h1>
@@ -56,10 +59,14 @@
 
        </div>
       <div class="bt22" style="padding:50px;" style="background:transparent;">
-        <a class="btn btn-lg btn-dark" href="home.html" role="button"> click to visite </a>
+        <div class="con-btn">
+          <div class="main_1"> <h1 class="welcome_h1">Click to Visite</h1> </div>
+          <div class="circle circleHover" onclick="swipe()"> <i class="fas fa-angle-double-right arrow"></i>  </div>
+        </div>
+        <!-- <a class="btn btn-lg btn-dark" href="home.html" role="button"> click to visite </a> -->
       </div>
     </div>
-    <div class="col-lg-6  con11-right" style="background-image: url('img.jpg') ">
+    <div class="col-lg-6  con11-right" style="background-image: url('img.png') ">
 
     </div>
   </div>
@@ -73,6 +80,8 @@
 
       <h3 class="h33-footer">copyright © 2021 Ankush Sharma </h3>
 
+
+<script src="index.js" charset="utf-8"></script>
   </div>
 </body>
 
