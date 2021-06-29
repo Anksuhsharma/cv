@@ -2,15 +2,12 @@
   color: white;
   position: relative;
   width: 100vw;
-  padding-left: 0;
-  padding-right: 0;
+  padding: 20px;
 }
 
 .h1-title-brand {
   margin-bottom: 0;
   margin-left: 40px;
-  font-family: 'Pattaya', sans-serif;
-  font-weight: normal;
 }
 .a1-top{
   color: white;
@@ -22,17 +19,19 @@
 
 }
 .t11 {
-
   width: 100vw;
 }
 
-.con11-left {
+
+.con11_left {
   background-position: center;
   background-size: cover;
   height: 545px;
   color: white;
   line-height: 2;
 }
+
+
 .text111{
   padding: 2% 10%;
 }
@@ -42,7 +41,7 @@
     height: 1000px;
   }
   .con11-right{
-    height: 1300px;
+    height: 1000px;
   }
 }
 
@@ -88,3 +87,6 @@
   font-size: 12px;
 
 }
+
+
+/* swipe */
