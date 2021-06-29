@@ -36,12 +36,12 @@
   padding: 2% 10%;
 }
 @media (max-width:1028px) {
-  .con11-left {
+  .con11_left {
     text-align: center;
-    height: 1000px;
+    height: 1200px;
   }
   .con11-right{
-    height: 1000px;
+    height: 1200px;
   }
 }
 
