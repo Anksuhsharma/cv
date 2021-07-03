@@ -19,7 +19,7 @@ con11.style.transition = "all 1s";
 
 
 
-myFunction();
+open_home();
 text_o();
 welcome();
 removing();
@@ -28,10 +28,10 @@ removing();
 
 
 
-function myFunction() {
+function open_home() {
   setTimeout(function (){
       window.open("home.html");
-  }, 1500
+  }, 2000
 )}
 
 
@@ -61,5 +61,6 @@ function removing(){
     con11.classList.remove("con11_left_2");
     welcome_h1.classList.remove("welecome_h1_padinf");
     document.querySelector(".welcome_h1").innerText="Click to visite";
+
   } , 1800
 )}
