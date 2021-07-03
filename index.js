@@ -62,5 +62,5 @@ function removing(){
     welcome_h1.classList.remove("welecome_h1_padinf");
     document.querySelector(".welcome_h1").innerText="Click to visite";
 
-  } , 1800
+  } , 2200
 )}
