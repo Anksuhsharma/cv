@@ -38,10 +38,10 @@
 @media (max-width:1028px) {
   .con11_left {
     text-align: center;
-    height: 1200px;
+    height: 800px;
   }
   .con11-right{
-    height: 1200px;
+    height: 1000px;
   }
 }
 
@@ -53,6 +53,7 @@
 
 .header-con {
   background-color: #393e46;
+  padding:  20px 0 ;
 }
 
 .footer {
@@ -76,7 +77,9 @@
   display: flex;
   position: absolute;
   top: 0;
-  right: 0;
+  right: 0;  
+  padding-right: 20px;
+  padding-top: 17px;
 }
 
 .h3t {
