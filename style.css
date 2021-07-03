@@ -53,7 +53,7 @@ body{
   background-color: #FFC947;
   top: 0px;
   right: 0px;
-  left: 90px;
+  left:-50px;
   transition: ease;
   text-align: center;
 }
@@ -73,7 +73,7 @@ body{
   background-color: #053742;
   top: 0px;
   right: 0px;
-  left: 372px;
+  left: 250px;
   text-align: center;
 }
 
